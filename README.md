@@ -25,3 +25,11 @@ An IoT-based robotics project using NodeMCU (ESP8266) to control a 4-wheel robot
    ```cpp
    const char* ssid = "YOUR_WIFI_NAME";
    const char* password = "YOUR_PASSWORD";
+   ## 🔍 How to Find the IP Address
+After uploading the code to your NodeMCU:
+1. Keep the NodeMCU connected to your computer.
+2. In the Arduino IDE, go to **Tools > Serial Monitor**.
+3. Set the baud rate to **115200**.
+4. Press the **RST (Reset)** button on the NodeMCU.
+5. The IP address will be printed on the screen once it connects to your WiFi. 
+6. Type this IP into your web browser to control the robot.
